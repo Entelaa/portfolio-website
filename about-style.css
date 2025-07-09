@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('../photos/background.webp') no-repeat center center/cover;
+  color: black;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  padding: 1rem 2rem;
+  position: relative;
+  z-index: 5;
+}
+
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.nav-links li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a.active {
+  text-decoration: underline;
+}
+
+/* About Section - styled like project card */
+.about-section {
+  padding: 6rem 2rem 3rem;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  max-width: 1000px;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.about-content:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.about-content h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.about-content p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  background: transparent;
+  text-align: center;
+  padding: 1rem;
+  color: black;
+}
