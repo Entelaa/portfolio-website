@@ -54,7 +54,6 @@ body {
 
 
 
-
 .welcome-section h2,
 .welcome-section p,
 .welcome-section .buttons {
@@ -65,13 +64,11 @@ body {
 .welcome-section h2 {
   font-size: 3rem;
   margin: 0.5rem 0 0.3rem 0;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
 }
 
 .welcome-section p {
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
 }
 
 .buttons {
@@ -86,32 +83,12 @@ body {
   text-decoration: none;
   border-radius: 5px;
 }
-
-@media (max-width: 768px) {
-  .navbar ul {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .welcome-section h2 {
-    font-size: 1.8rem;
-  }
-
-  .welcome-section p {
-    font-size: 1rem;
-  }
-
-  .buttons {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .btn {
-    padding: 10px 20px;
-    font-size: 1rem;
-  }
+.background-section {
+  background-image: url('background.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
-
 
 
 /* Footer */
