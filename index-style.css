@@ -55,7 +55,8 @@ body {
 
 
 .welcome-section h2,
-.welcome-section p,
+.welcome-section p{
+ color: black; }
 .welcome-section .buttons {
   position: relative;
   z-index: 2;
@@ -92,3 +93,4 @@ footer {
   padding: 1rem;
   color: black;
 }
+
