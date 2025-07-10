@@ -95,6 +95,31 @@ body {
   position: relative;
   z-index: 1;
 }
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .welcome-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .welcome-section p {
+    font-size: 1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
+}
+
 
 
 /* Footer */
